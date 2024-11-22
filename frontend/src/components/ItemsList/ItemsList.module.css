@@ -1,0 +1,59 @@
+.cardList {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;  
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;  
+}
+
+.cardItem {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;  
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+
+}
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.cardName {
+  margin-bottom: 5px;
+  font-size: 1.2em;  
+  font-weight: 600;  
+}
+
+.cardDescription {
+  margin-bottom: 10px;
+  color: #555;  
+
+}
+
+.cardPrice {
+    font-weight: bold;
+}
+
+.showMoreButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;  
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.showMoreButton:hover {
+
+    background-color: #0056b3;
+}
